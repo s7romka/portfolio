@@ -135,12 +135,12 @@ ul {
     }
 
 .landing-page .content .image img {
-    max-width: 130%;
+    max-width: 330%;
     margin-top: 200px;
     margin-left: -5px;
 }
 .landing-page .content .imageOfMe img {
-    max-width: 170%;
+    max-width: 370%;
     max-height:100%;
     border-radius:50%;
     margin-left: 50px;
