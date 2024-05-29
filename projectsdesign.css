@@ -1,0 +1,210 @@
+﻿.links li a {
+    color: #DCDCDC; /* Set the text color to white */
+    /* Remove underline from links */
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/* This will make only the "Get Started" link text white */
+#getstarted a {
+    color: black;
+    text-shadow: none;
+}
+
+header {
+    background-color: #FFF8DC;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Start Landing Page */
+.landing-page header {
+    min-height: 80px;
+    display: flex;
+    background: linear-gradient(to right, blue, pink);
+}
+
+.landing-page header {
+    min-height: auto;
+    display: initial;
+    background: linear-gradient(to right, blue, pink);
+}
+
+    .landing-page header .container {
+        border-bottom-right-radius: 60px;
+        border-bottom-left-radius: 60px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #00008B;
+        background: linear-gradient(to right, #AB369D, #5C2D90);
+    }
+
+    .landing-page header .logo {
+        margin-left: 50px;
+        color: #DCDCDC;
+        text-shadow: -3px 0 black, 0 1px black, 0px 0 black, 0 -1px black;
+        font-style: italic;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+
+    .landing-page header .links {
+        margin-top: 10px;
+        margin-right: 40px;
+        display: flex;
+        align-items: center;
+    }
+
+        .landing-page header .links li {
+            margin-left: 30px;
+            color: #5d5d5d;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+            .landing-page header .links li:last-child {
+                border-radius: 20px;
+                padding: 10px 20px;
+                color: white;
+                background-color: white;
+                background: linear-gradient(to right, pink, #purple);
+            }
+body .grid-container {
+    margin-bottom:90px;
+    margin-top:50px;
+    margin-left:510px;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+}
+
+.image img {
+    width: 130px;
+    height: 350px;
+    box-shadow: 6px  10px purple;
+}
+.grid-container h1 {
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 15px;
+    color: white;
+    text-shadow: -2px 0 #AB369D, 0 2px #5C2D90, 0px 0 #AB369D, 0 -2px #5C2D90;
+    font-style: italic;
+    text-transform: uppercase;
+    position: absolute;
+    pointer-events: none;
+}
+.bottom-project{
+    margin-top:30px;
+}
+.grid-item {
+    position: relative;
+    transition: transform 0.3s ease;
+}
+    .grid-item:hover {
+        transform: scale(1.2); 
+        
+    }
+.item1 {
+    margin-top: 20px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.item2{
+    grid-row-start:2;
+    grid-row-end: 3;
+}
+h2 {
+    margin-left: 570px;
+    color: white !important;
+    text-decoration: solid;
+    text-shadow: -5px 0 #AB369D, 0 3px #5C2D90, 0px 0 #AB369D, 0 -3px #5C2D90;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 80px !important;
+}
+
+     
+
+
+.footer-basic {
+    padding: 40px 0;
+    background-color: #ffffff;
+    color: #4b4c4d;
+}
+
+    .footer-basic ul {
+        padding: 0;
+        list-style: none;
+        text-align: center;
+        font-size: 18px;
+        line-height: 1.6;
+        margin-bottom: 0;
+    }
+
+    .footer-basic li {
+        padding: 0 10px;
+    }
+
+    .footer-basic ul a {
+        color: inherit;
+        text-decoration: none;
+        opacity: 0.8;
+    }
+
+        .footer-basic ul a:hover {
+            opacity: 1;
+        }
+
+    .footer-basic .social {
+        text-align: center;
+        padding-bottom: 25px;
+    }
+
+        .footer-basic .social > a {
+            font-size: 24px;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            display: inline-block;
+            text-align: center;
+            border-radius: 50%;
+            border: 1px solid #ccc;
+            margin: 0 8px;
+            color: inherit;
+            opacity: 0.75;
+        }
+
+            .footer-basic .social > a:hover {
+                opacity: 0.9;
+            }
+
+    .footer-basic .copyright {
+        margin-top: 15px;
+        text-align: center;
+        font-size: 13px;
+        color: #aaa;
+        margin-bottom: 0;
+    }
