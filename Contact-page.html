@@ -18,30 +18,33 @@
             <img src="">
         </div>
         <div class="contact-container">
-            <form action="action_page.php">
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <form action="contact.php" method="post">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
 
-                <label for="country">Country</label>
-                <select id="country" name="country">
-                    <option value="australia">Australia</option>
-                    <option value="canada">Canada</option>
-                    <option value="usa">Poland</option>
-                    <option value="usa">Ukraine</option>
-                    <option value="usa">Germany</option>
-                    <option value="usa">France</option>
-                    <option value="usa">Austria</option>
-                </select>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
 
-                <label for="subject">Subject</label>
-                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your email.." required>
 
-                <input type="submit" value="Submit">
+        <label for="country">Country</label>
+        <select id="country" name="country" required>
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="poland">Poland</option>
+            <option value="ukraine">Ukraine</option>
+            <option value="germany">Germany</option>
+            <option value="france">France</option>
+            <option value="austria">Austria</option>
+        </select>
 
-            </form>
-        </div>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.."required></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+</div>
     </div>
 
     <body>
