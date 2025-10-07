@@ -111,10 +111,10 @@ img {
     box-shadow: 6px 10px purple;
 }
 .image1 img {
-    margin-left: 550px;
+    margin-left: 630px;
 }
 .image2 img {
-    margin-left: 478px;
+    margin-left: 600px;
 }
 .project p {
     text-align: center;
@@ -211,3 +211,4 @@ img {
         color: #aaa;
         margin-bottom: 0;
     }
+
